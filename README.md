@@ -1,6 +1,6 @@
 # URL Shortener service
 
-###URLShortener.API
+### URLShortener.API
 An API for creating, fetching and deleting link objects as well as authorizing users accounts.
 
 todo:
