@@ -1,0 +1,18 @@
+{
+  "Logging": {
+    "LogLevel": {
+      "Default": "Information",
+      "Microsoft.AspNetCore": "Warning"
+    }
+  },
+  "AllowedHosts": "*",
+  "Jwt": {
+    "Key": "somesecurekey",
+    "Issuer": "issuer name",
+    "Audience": "audience name",
+    "Subject": "JWT for some shortening service"
+  },
+  "ConnectionStrings": {
+    "LinkAPIContext": "Host=dbhost;Database=dbname;Username=dbuser;Password=dbuserpw"
+  }
+}
